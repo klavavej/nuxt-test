@@ -30,13 +30,6 @@ const nuxtConfig: Configuration = {
         content: settings.seoMetaImage,
       },
     ],
-    script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js', defer: true }],
-    link: [
-      {
-        rel: 'preconnect',
-        href: 'https://d33wubrfki0l68.cloudfront.net',
-      },
-    ],
   },
 
   srcDir: 'app/',
